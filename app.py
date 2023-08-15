@@ -25,11 +25,11 @@ st.sidebar.header('Daily Inputs')
 
 
 def user_input_features():
-    op = st.sidebar.slider('Open', -1.0, 0.99, 0.01)
-    high = st.sidebar.slider('High', -1.0, 0.99, 0.01)
-    low = st.sidebar.slider('Low', 0, 100, 1)
-    close = st.sidebar.slider('Close', 41, 160, 1)
-    vol = st.sidebar.slider('Volume', 41, 160, 1)
+    op = st.sidebar.text_input('Open')
+    high = st.sidebar.text_input('High')
+    low = st.sidebar.text_input('Low')
+    close = st.sidebar.text_input('Close')
+    vol = st.sidebar.text_input('Volume')
     data = {'Open': op,
             'High': high,
             'Low': low,
