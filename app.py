@@ -1,16 +1,16 @@
 import subprocess
 import sys
 
-def install(package):
-    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+#def install(package):
+ #   subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 
-install("xgboost")
+#install("xgboost")
 
 import streamlit as st
 import pandas as pd
 import pickle
 from PIL import Image
-from xgboost import XGBRegressor
+#from xgboost import XGBRegressor
 
 
 st.write("""
