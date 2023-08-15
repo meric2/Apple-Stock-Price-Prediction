@@ -1,10 +1,10 @@
 import subprocess
 import sys
 
-#def install(package):
- #   subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 
-#install("lightgbm")
+install("xgboost")
 
 import streamlit as st
 import pandas as pd
